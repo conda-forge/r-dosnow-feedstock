@@ -1,4 +1,4 @@
-{% set version = '1.0.14' %}
+{% set version = "1.0.16" %}
 
 
 
@@ -12,7 +12,7 @@ source:
     - https://cran.r-project.org/src/contrib/doSNOW_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/doSNOW/doSNOW_{{ version }}.tar.gz
 
-  sha256: 2fa821c89801e2a7b3c51aeedff37ccf14a386734a37ffb1145b17432222d3f5
+  sha256: 161434ecd55f04d6b070da784b222a7686c914b73de558eef6048a229022398e
 
 build:
   number: 0
