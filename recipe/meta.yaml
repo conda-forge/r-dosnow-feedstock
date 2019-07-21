@@ -44,12 +44,10 @@ test:
 about:
   home: https://cran.r-project.org/web/packages/doSNOW/index.html
   license: GPL-2
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
   summary: Provides a parallel backend for the %dopar% function using Luke Tierney's snow package.
 
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
     - tomnl
-    - johanneskoester
-    - bgruening
