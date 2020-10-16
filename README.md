@@ -5,11 +5,9 @@ Home: https://cran.r-project.org/web/packages/doSNOW/index.html
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dosnow-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides a parallel backend for the %dopar% function using Luke Tierney's snow package.
-
-
 
 Current build status
 ====================
