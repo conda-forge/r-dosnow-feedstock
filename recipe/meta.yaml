@@ -1,4 +1,4 @@
-{% set version = '1.0.19' %}
+{% set version = "1.0.20" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/doSNOW_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/doSNOW/doSNOW_{{ version }}.tar.gz
-  sha256: 4cd2d080628482f4c6ecab593313d7e42516f5ff13fbf9f90e461fcad0580738
+  sha256: 917cabed166aa2d1ec291691c17e1e3d344e858543e1682e3a442cc0c504bbb8
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
